@@ -4,6 +4,6 @@ auth = Blueprint('auth', __name__)
 
 @auth.route('/login')
 def login():
-    return "<h1>You have succesfully logged in</h1>"
+      return render_template('login.html')
 
 
